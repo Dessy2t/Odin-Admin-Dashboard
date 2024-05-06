@@ -24,9 +24,9 @@ body{
 .logo-text{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin: 40px 20px;
+    margin: 40px 40px;
 }
 
 .logo-text h1{
@@ -39,7 +39,7 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 20px 40px;
+    margin: 10px 40px;
 }
  
 .icon-text p{
@@ -164,13 +164,23 @@ h4{
 .ann-trend{
     display: grid;
     grid-template-rows: 50% 50%;
+   
 }
 
-.ann-card, .trend-card{
+.ann-card{
     height: 80%;
     width: 80%;
     background-color: white;
     border-radius: 5px;
+    margin-top: 20px;
+}
+
+.trend-card{
+    height: 65%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .ann-text{
