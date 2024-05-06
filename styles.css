@@ -24,9 +24,9 @@ body{
 .logo-text{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    margin: 40px 40px;
+    margin: 40px 20px;
 }
 
 .logo-text h1{
@@ -39,17 +39,79 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 10px 40px;
+    margin: 20px 40px;
 }
  
 .icon-text p{
-    margin-left: 15px;
+    margin-left: 30px;
     font-size: 14px;
     font-weight: 700;
 }
 
+.list-items-buttom{
+    margin-top: 50px;
+}
 
 .main{
     background-color: white;
     height: 100vh;
+    display: grid;
+    grid-template-rows:20% 80% ;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar, .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.form-input{
+    width: 500px;
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.avatarnavbar, .avatarwelcome{
+    margin: 0 20px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.btn{
+    background-color: #0ea5e9;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: 1px solid #0ea5e9;
+    border-radius: 20px;
+}
+
+.content{
+    background-color: #d4d4d4;
 }
